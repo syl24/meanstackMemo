@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { CreateComponent } from './posts/create/create.component';
 import { HeaderComponent } from './header/header.component';
 import { ListComponent } from './posts/list/list.component';
+import { AppRoutingModule } from 'app-routing.module';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ListComponent } from './posts/list/list.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
     MatInputModule,
